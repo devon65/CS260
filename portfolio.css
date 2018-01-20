@@ -1,0 +1,48 @@
+ul.toolbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: darkturquoise;
+}
+section {
+    display: flex;
+}
+
+img.one{
+    height: 200px;
+    width: 200px;
+    transform: rotate(90deg);
+}
+
+aside {
+    flex: 2;
+}
+
+article {
+    flex: 3;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    font-family: Georgia;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+
+li a:hover{
+    background: paleturquoise;
+}
+
+.active {
+    background: rebeccapurple;
+    color: blanchedalmond;
+}
